@@ -18,7 +18,7 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="name">氏名</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="name" value="{{ $Profile_form->title }}">
+                            <input type="text" class="form-control" name="name" value="{{ $Profile_form->name }}">
                         </div>
                     </div>
                     
@@ -33,14 +33,14 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="hobby">趣味</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="hobby" value="{{ old('title') }}">
+                            <input type="text" class="form-control" name="hobby" value="{{ old('hobby') }}">
                         </div>
                     </div>
                     
                     <div class="form-group row">
                         <label class="col-md-2" for="introduction">自己紹介欄</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="introduction" rows="20">{{ $Profile_form->body }}</textarea>
+                            <textarea class="form-control" name="introduction" rows="20">{{ $Profile_form->introduction }}</textarea>
                         </div>
                     </div>
                     
